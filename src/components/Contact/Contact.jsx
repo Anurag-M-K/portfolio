@@ -64,7 +64,7 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Address</h4>
-                  <span>Kannur, Kerala, India <br />Olancha, KY 93544</span>
+                  <span>Kannur, Kerala, India</span>
                 </div>
               </div>
               <div className="st-social-info">
