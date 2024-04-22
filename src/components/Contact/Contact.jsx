@@ -5,7 +5,7 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 import { Icon } from '@iconify/react';
 import SocialLinks from '../SocialLinks/SocialLinks';
 
-const Contact = ({ data, socialData }) => {
+const  Contact = ({ data, socialData }) => {
   const { title, text, subTitle } = data;
   return (
     <section id="contact" className="st-dark-bg">
