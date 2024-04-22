@@ -53,9 +53,9 @@
         "delay": "700"
       },
       {
-        "imgLink": "./images/icon/icon2.png",
-        "title": "UI/UX Design",
-        "text": "I specialize in creating user-friendly and visually appealing interfaces for websites and mobile apps. My designs focus on enhancing the overall user experience, making it easy for users to navigate and interact with the product",
+        "imgLink": "./images/icon/icon3.png",
+        "title": "Database design",
+        "text": "I specialize in designing efficient and scalable databases, ensuring your data is well-organized and easy to manage. Whether you need a relational database using SQL or a NoSQL solution, I can create a database architecture that meets your needs and supports your application's growth.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "300"
