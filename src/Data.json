@@ -143,13 +143,41 @@
   "portfolioData": {
     "portfolioItems": [
       {
+        "imgLink": "./images/portfolio/tiqr.png",
+        "imgLinkLg": "./images/portfolio/tiqr.png",
+        "title": "View",
+        "subTitle": "Tiqr Events - https://tiqr.events/",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
         "imgLink": "./images/portfolio/iemezz.png",
         "imgLinkLg": "./images/portfolio/iemezz.png",
         "title": "View",
-        "subTitle": "Design / Marketing",
+        "subTitle": "ie Mezz - https://ie-mezz.netlify.app/",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
+      },
+      
+      {
+        "imgLink": "./images/portfolio/bugfixer.png",
+        "imgLinkLg": "./images/portfolio/bugfixer.png",
+        "title": "View",
+        "subTitle": "Bugfixer - https://bugfixer-micro.netlify.app/",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "./images/portfolio/ds.png",
+        "imgLinkLg": "./images/portfolio/ds.png",
+        "title": "View",
+        "subTitle": "Complete data structure in js- https://github.com/Anurag-M-K/data-structure---javascript",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
       },
       {
         "imgLink": "./images/portfolio/netflix.jpg",
@@ -168,24 +196,6 @@
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
-      },
-      {
-        "imgLink": "./images/portfolio/ds.png",
-        "imgLinkLg": "./images/portfolio/ds.png",
-        "title": "View",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "500"
-      },
-      {
-        "imgLink": "./images/portfolio/bugfixer.png",
-        "imgLinkLg": "./images/portfolio/bugfixer.png",
-        "title": "View",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "600"
       },
       {
         "imgLink": "./images/portfolio/bugfixer.png",

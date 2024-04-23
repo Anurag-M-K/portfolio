@@ -8,6 +8,8 @@ import ReviewSection from '../components/Review/ReviewSection';
 import Contact from "../components/Contact/Contact";
 import PortfolioSection from '../components/Protfolio/PortfolioSection';
 import Hero from '../components/Hero/Hero';
+import { useEffect } from 'react';
+import axios from 'axios';
 
 const Home = () => {
   const { heroData, aboutData, serviceData, skillData, portfolioData, blogData, resumeData, reviewData, contactData, socialData } = data;

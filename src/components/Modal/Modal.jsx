@@ -21,7 +21,7 @@ const Modal = ({ img, title, subTitle, modalClose }) => {
             <div className="st-flex-center">
               <img src={img} />
             </div>
-            <p className="modal-subtitle">{subTitle}</p>
+            <a className="modal-subtitle-2 text-blue-600" href={`${subTitle.split(' - ')[1]}`} target="_blank" >{subTitle}</a>
           </div>
         </div>
       </div>

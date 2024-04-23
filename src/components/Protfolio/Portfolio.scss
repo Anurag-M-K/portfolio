@@ -19,6 +19,9 @@
     transition: all 0.4s ease;
     z-index: 1;
   }
+  .project-image{
+    height: 190px;
+  }
 
   &::after {
     content: "";
