@@ -8,7 +8,7 @@ import SocialLinks from '../SocialLinks/SocialLinks';
 const  Contact = ({ data, socialData }) => {
   const { title, text, subTitle } = data;
   return (
-    <section id="contact" className="st-dark-bg">
+    <section id="contact" className="st-dark-bg ">
       <div className="st-height-b100 st-height-lg-b80"></div>
       <SectionHeading title="Contact" />
       <div className="container" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
@@ -33,7 +33,7 @@ const  Contact = ({ data, socialData }) => {
             </form>
             <div className="st-height-b0 st-height-lg-b30"></div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 ">
             <div className="st-height-b0 st-height-lg-b40"></div>
             <h3 className="st-contact-title">{title}</h3>
             <div className="st-contact-text">{text}</div>
