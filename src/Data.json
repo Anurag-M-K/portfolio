@@ -192,20 +192,12 @@
         "imgLink": "./images/portfolio/todolist.png",
         "imgLinkLg": "./images/portfolio/todolist.png",
         "title": "View",
-        "subTitle": "Design / Marketing",
+        "subTitle": "TodoList - https://github.com/Anurag-M-K/todolist-mern-assessment",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
-      },
-      {
-        "imgLink": "./images/portfolio/bugfixer.png",
-        "imgLinkLg": "./images/portfolio/bugfixer.png",
-        "title": "View",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "600"
       }
+   
       
     ]
   },

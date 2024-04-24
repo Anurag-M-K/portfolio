@@ -1,35 +1,90 @@
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-import './Contact.scss';
-import SectionHeading from '../SectionHeading/SectionHeading';
-import { Icon } from '@iconify/react';
-import SocialLinks from '../SocialLinks/SocialLinks';
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import "./Contact.scss";
+import SectionHeading from "../SectionHeading/SectionHeading";
+import { Icon } from "@iconify/react";
+import SocialLinks from "../SocialLinks/SocialLinks";
+import { useForm, ValidationError } from "@formspree/react";
+import toast, { Toaster } from "react-hot-toast";
 
-const  Contact = ({ data, socialData }) => {
+const Contact = ({ data, socialData }) => {
+  const [state, handleSubmit] = useForm("xzbnyogr");
+  if (state.succeeded) {
+    toast.success("Get back you soon!");
+  }
+
   const { title, text, subTitle } = data;
   return (
     <section id="contact" className="st-dark-bg ">
       <div className="st-height-b100 st-height-lg-b80"></div>
       <SectionHeading title="Contact" />
-      <div className="container" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+      <div
+        className="container"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="500"
+      >
         <div className="row d-flex">
           <div className="col-lg-6">
             <h3 className="st-contact-title">Just say Hello</h3>
             <div id="st-alert"></div>
-            <form action="#" method="POST" className="st-contact-form" id="contact-form">
+            <form
+              onSubmit={handleSubmit}
+              action="#"
+              method="POST"
+              className="st-contact-form"
+              id="contact-form"
+            >
               <div className="st-form-field">
-                <input type="text" id="name" name="name" placeholder="Your Name" required />
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
               </div>
               <div className="st-form-field">
-                <input type="text" id="email" name="email" placeholder="Your Email" required />
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
+                />
               </div>
               <div className="st-form-field">
-                <input type="text" id="subject" name="subject" placeholder="Your Subject" required />
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Your Subject"
+                  required
+                />
               </div>
               <div className="st-form-field">
-                <textarea cols="30" rows="10" id="msg" name="msg" placeholder="Your Message" required></textarea>
+                <textarea
+                  cols="30"
+                  rows="10"
+                  id="msg"
+                  name="msg"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
               </div>
-              <button className='st-btn st-style1 st-color1' type="submit" id="submit" name="submit">Send Message</button>
+              <button
+                className="st-btn st-style1 st-color1"
+                type="submit"
+                id="submit"
+                name="submit"
+              >
+                Send Message
+              </button>
             </form>
             <div className="st-height-b0 st-height-lg-b30"></div>
           </div>
@@ -76,13 +131,14 @@ const  Contact = ({ data, socialData }) => {
         </div>
       </div>
       <div className="st-height-b100 st-height-lg-b80"></div>
+      <Toaster />
     </section>
-  )
-}
+  );
+};
 
 Contact.propTypes = {
   data: PropTypes.object,
   socialData: PropTypes.array,
-}
+};
 
 export default Contact;
