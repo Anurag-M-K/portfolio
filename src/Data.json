@@ -137,6 +137,13 @@
         "effect": "fade-up",
         "duration": "500",
         "delay": "700"
+      },
+      {
+        "title": "Firebase",
+        "progress": 80,
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
       }
     ]
   },
@@ -183,7 +190,7 @@
         "imgLink": "./images/portfolio/netflix.jpg",
         "imgLinkLg": "./images/portfolio/netflix.jpg",
         "title": "View",
-        "subTitle": "Design / Marketing",
+        "subTitle": "Netflix clone",
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
@@ -193,6 +200,33 @@
         "imgLinkLg": "./images/portfolio/todolist.png",
         "title": "View",
         "subTitle": "TodoList - https://github.com/Anurag-M-K/todolist-mern-assessment",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "./images/portfolio/ecommerce.jpg",
+        "imgLinkLg": "./images/portfolio/ecommerce.jpg",
+        "title": "View",
+        "subTitle": "Ecommerce - https://github.com/Anurag-M-K/Ecommerce",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "./images/portfolio/eventmanagement.jpeg",
+        "imgLinkLg": "./images/portfolio/eventmanagement.jpeg",
+        "title": "View",
+        "subTitle": "Event management website -  https://github.com/Anurag-M-K/tiqrlabs-assessment",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "./images/portfolio/inventory.png",
+        "imgLinkLg": "./images/portfolio/inventory.png",
+        "title": "View",
+        "subTitle": "Inventory Management -  https://astounding-truffle-8eaad3.netlify.app/",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"

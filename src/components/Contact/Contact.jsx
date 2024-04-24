@@ -8,9 +8,11 @@ import { useForm, ValidationError } from "@formspree/react";
 import toast, { Toaster } from "react-hot-toast";
 
 const Contact = ({ data, socialData }) => {
-  const [state, handleSubmit] = useForm("xzbnyogr");
+  const [state, handleSubmit ,reset] = useForm("xzbnyogr");
   if (state.succeeded) {
     toast.success("Get back you soon!");
+    // window.location.reload()
+    reset()
   }
 
   const { title, text, subTitle } = data;
