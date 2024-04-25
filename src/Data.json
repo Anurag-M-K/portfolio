@@ -149,7 +149,7 @@
         "imgLink": "./images/portfolio/tiqr.png",
         "imgLinkLg": "./images/portfolio/tiqr.png",
         "title": "View",
-        "subTitle": "Tiqr Events - https://tiqr.events/",
+        "subTitle": "TiQR Events - https://tiqr.events/",
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
@@ -362,7 +362,7 @@
       {
         "title": "Full Stack Developer",
         "duration": "Sep 2023 - Present",
-        "subTitle": "Tiqrlabs, Kannur",
+        "subTitle": "TiQR Labs, Kannur",
         "text": "Developed and maintained web applications using Next.js with TypeScript for the frontend and Django for the backend."
       },
       {
@@ -381,7 +381,7 @@
         "text": ""
       },
       {
-        "title": "Bototype",
+        "title": "Brototype",
         "duration": "Aug 2022 - Feb 2023",
         "subTitle": "Brototype, Bangalore",
         "text": "Mastered the MERN stack and related technologies, as well as data structures."
