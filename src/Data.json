@@ -17,10 +17,6 @@
     "text": "I am a full-stack developer specializing in React, Node.js, Express, MongoDB, Django, PostgreSQL, and other technologies. My expertise lies in creating robust and scalable web applications that deliver exceptional user experiences. With a strong focus on problem-solving and innovation, I strive to build efficient and user-friendly digital solutions that meet the needs of clients and users alike.",
     "details": [
       {
-        "title": "Birthday",
-        "info": "Mar 26, 2000"
-      },
-      {
         "title": "Phone",
         "info": "+91 9605257629"
       },
@@ -194,15 +190,6 @@
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
-      },
-      {
-        "imgLink": "./images/portfolio/todolist.png",
-        "imgLinkLg": "./images/portfolio/todolist.png",
-        "title": "View",
-        "subTitle": "TodoList - https://github.com/Anurag-M-K/todolist-mern-assessment",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "400"
       },
       {
         "imgLink": "./images/portfolio/ecommerce.jpg",
