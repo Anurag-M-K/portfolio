@@ -170,6 +170,15 @@
         "duration": "500",
         "delay": "200"
       },
+      {
+        "imgLink": "./images/portfolio/review.png",
+        "imgLinkLg": "./images/portfolio/review.png",
+        "title": "View",
+        "subTitle": "Review App - https://review-fe-three.vercel.app/review/1BJKyyo050FfYYMPd3bW",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
       
       {
         "imgLink": "./images/portfolio/bugfixer.png",
@@ -368,13 +377,13 @@
     "experience": [
       {
         "title": "Full Stack Developer",
-        "duration": "Sep 2023 - Present",
+        "duration": "Jun 2023 - Present",
         "subTitle": "TiQR Labs, Kannur",
         "text": "Developed and maintained web applications using Next.js with TypeScript for the frontend and Django for the backend."
       },
       {
         "title": "Full stack developer",
-        "duration": "Feb 2023 - Sep 2023",
+        "duration": "Feb 2023 - Jun 2023",
         "subTitle": "Freelance",
         "text": "Developed projects for clients as a freelancer, delivering tailored solutions to meet their specific needs and requirements"
       }
