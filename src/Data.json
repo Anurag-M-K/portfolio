@@ -171,6 +171,15 @@
         "delay": "200"
       },
       {
+        "imgLink": "./images/portfolio/mallumart.png",
+        "imgLinkLg": "./images/portfolio/mallumart.png",
+        "title": "View",
+        "subTitle": "Ecommerce - https://mallumart.com/",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
         "imgLink": "./images/portfolio/review.png",
         "imgLinkLg": "./images/portfolio/review.png",
         "title": "View",
