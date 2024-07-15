@@ -386,13 +386,13 @@
     "experience": [
       {
         "title": "Full Stack Developer",
-        "duration": "Jun 2023 - Present",
+        "duration": "jan 2023 - Present",
         "subTitle": "TiQR Labs, Kannur",
         "text": "Developed and maintained web applications using Next.js with TypeScript for the frontend and Django for the backend."
       },
       {
         "title": "Full stack developer",
-        "duration": "Feb 2023 - Jun 2023",
+        "duration": "",
         "subTitle": "Freelance",
         "text": "Developed projects for clients as a freelancer, delivering tailored solutions to meet their specific needs and requirements"
       }
@@ -407,7 +407,7 @@
       },
       {
         "title": "Brototype",
-        "duration": "Aug 2022 - Feb 2023",
+        "duration": "Jun 2022 -  Dec 2022",
         "subTitle": "Brototype, Bangalore",
         "text": "Mastered the MERN stack and related technologies, as well as data structures."
       }
