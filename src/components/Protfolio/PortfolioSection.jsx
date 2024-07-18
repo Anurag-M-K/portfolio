@@ -42,7 +42,7 @@ const PortfolioSection = ({ data }) => {
       setShowLoadMore(false);
     }
   };
-
+  
   return (
     <>
       <section id="portfolio">
