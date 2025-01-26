@@ -85,9 +85,17 @@
         "duration": "500",
         "delay": "300"
       },
+   
       {
         "title": "MySQL",
         "progress": 91,
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "title": "Nest JS",
+        "progress": 88,
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
@@ -152,6 +160,24 @@
   },
   "portfolioData": {
     "portfolioItems": [
+      {
+        "imgLink": "./images/portfolio/zuruni.png",
+        "imgLinkLg": "./images/portfolio/zuruni.png",
+        "title": "View",
+        "subTitle": "Zuruni - https://zuruni.io/",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "imgLink": "./images/portfolio/src.png",
+        "imgLinkLg": "./images/portfolio/src.png",
+        "title": "View",
+        "subTitle": "SRC - https://src2024.in/",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
       {
         "imgLink": "./images/portfolio/tiqr.png",
         "imgLinkLg": "./images/portfolio/tiqr.png",
@@ -385,8 +411,15 @@
     "experienceTitle": "Experience",
     "experience": [
       {
+        "title": "Tech lead | Full Stack Developer",
+        "duration": "Sep 2024 - Present",
+        "subTitle": "Kartblue, Kannur",
+        "text": "Leading the technology team at Kartblue, managing all aspects of the tech stack. Overseeing the development and maintenance of scalable web applications using Next.js with TypeScript for the frontend and Node.js with NestJS for the backend, ensuring performance, security, and seamless integration across platforms."
+      }
+,      
+      {
         "title": "Full Stack Developer",
-        "duration": "jan 2023 - Present",
+        "duration": "jan 2023 - Jun 2024",
         "subTitle": "TiQR Labs, Kannur",
         "text": "Developed and maintained web applications using Next.js with TypeScript for the frontend and Django for the backend."
       },
