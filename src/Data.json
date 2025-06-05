@@ -11,7 +11,7 @@
   },
   "aboutData": {
     "imgLink": "/images/section/about.png",
-    "cvPdf": "/images/Resume.pdf",
+    "cvPdf": "/images/resume.pdf",
     "title": "Hi There! I'm Anurag Madathamkandy",
     "subtitle": "Full Stack Developer",
     "text": "I am a full-stack developer specializing in React, Node.js, Express, MongoDB, Django, PostgreSQL, and other technologies. My expertise lies in creating robust and scalable web applications that deliver exceptional user experiences. With a strong focus on problem-solving and innovation, I strive to build efficient and user-friendly digital solutions that meet the needs of clients and users alike.",
@@ -160,6 +160,15 @@
   },
   "portfolioData": {
     "portfolioItems": [
+      {
+        "imgLink": "./images/portfolio/meet.jpg",
+        "imgLinkLg": "./images/portfolio/meet.jpg",
+        "title": "View",
+        "subTitle": "Zuruni - https://meet.zuruni.io/",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
       {
         "imgLink": "./images/portfolio/zuruni.png",
         "imgLinkLg": "./images/portfolio/zuruni.png",
@@ -419,7 +428,7 @@
 ,      
       {
         "title": "Full Stack Developer",
-        "duration": "jan 2023 - Jun 2024",
+        "duration": "Aug 2022 - Jun 2024",
         "subTitle": "TiQR Labs, Kannur",
         "text": "Developed and maintained web applications using Next.js with TypeScript for the frontend and Django for the backend."
       },
@@ -440,7 +449,7 @@
       },
       {
         "title": "Brototype",
-        "duration": "Jun 2022 -  Dec 2022",
+        "duration": "jan 2022 -  jul 2022",
         "subTitle": "Brototype, Bangalore",
         "text": "Mastered the MERN stack and related technologies, as well as data structures."
       }
